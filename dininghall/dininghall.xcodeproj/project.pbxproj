@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF1A2AEA1C165B340055EB93 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1A2AE41C165B340055EB93 /* ParseFacebookUtils.framework */; };
+		EF1A2AEB1C165B340055EB93 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1A2AE51C165B340055EB93 /* ParseFacebookUtilsV4.framework */; };
+		EF1A2AEC1C165B340055EB93 /* ParseTwitterUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1A2AE61C165B340055EB93 /* ParseTwitterUtils.framework */; };
+		EF1A2AED1C165B340055EB93 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1A2AE71C165B340055EB93 /* ParseUI.framework */; };
+		EF1A2AEE1C165B340055EB93 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1A2AE81C165B340055EB93 /* Bolts.framework */; };
+		EF1A2AEF1C165B340055EB93 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1A2AE91C165B340055EB93 /* Parse.framework */; };
+		EF1A2AF11C165C130055EB93 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1A2AF01C165C130055EB93 /* AudioToolbox.framework */; };
+		EF1A2AF31C165C180055EB93 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1A2AF21C165C180055EB93 /* CFNetwork.framework */; };
+		EF1A2AF51C165C1F0055EB93 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1A2AF41C165C1F0055EB93 /* CoreGraphics.framework */; };
+		EF1A2AF71C165C2C0055EB93 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1A2AF61C165C2C0055EB93 /* CoreLocation.framework */; };
+		EF1A2AF91C165C340055EB93 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1A2AF81C165C340055EB93 /* QuartzCore.framework */; };
+		EF1A2AFB1C165C400055EB93 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1A2AFA1C165C400055EB93 /* Security.framework */; };
+		EF1A2AFD1C165C450055EB93 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1A2AFC1C165C450055EB93 /* StoreKit.framework */; };
+		EF1A2AFF1C165C4C0055EB93 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1A2AFE1C165C4C0055EB93 /* libz.tbd */; };
+		EF1A2B011C165C510055EB93 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1A2B001C165C510055EB93 /* libsqlite3.tbd */; };
+		EF1A2B031C165C620055EB93 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1A2B021C165C620055EB93 /* Accounts.framework */; };
+		EF1A2B051C165C660055EB93 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1A2B041C165C660055EB93 /* Social.framework */; };
+		EF1A2B071C165CA30055EB93 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1A2B061C165CA30055EB93 /* SystemConfiguration.framework */; };
+		EF1A2B0A1C165E970055EB93 /* DiningHallSelectionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1A2B091C165E970055EB93 /* DiningHallSelectionTableViewController.m */; };
+		EF1A2B0F1C1661100055EB93 /* foothill_logo.gif in Resources */ = {isa = PBXBuildFile; fileRef = EF1A2B0B1C1661100055EB93 /* foothill_logo.gif */; };
+		EF1A2B101C1661100055EB93 /* crossroads_logo.gif in Resources */ = {isa = PBXBuildFile; fileRef = EF1A2B0C1C1661100055EB93 /* crossroads_logo.gif */; };
+		EF1A2B111C1661100055EB93 /* ckc_logo.gif in Resources */ = {isa = PBXBuildFile; fileRef = EF1A2B0D1C1661100055EB93 /* ckc_logo.gif */; };
+		EF1A2B121C1661100055EB93 /* cafe_3_logo.gif in Resources */ = {isa = PBXBuildFile; fileRef = EF1A2B0E1C1661100055EB93 /* cafe_3_logo.gif */; };
+		EF1A2B151C16652F0055EB93 /* CheckInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1A2B141C16652F0055EB93 /* CheckInViewController.m */; };
+		EF377BD31C16569F0078C2F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF377BD21C16569F0078C2F3 /* main.m */; };
+		EF377BD61C16569F0078C2F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF377BD51C16569F0078C2F3 /* AppDelegate.m */; };
+		EF377BD91C16569F0078C2F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF377BD81C16569F0078C2F3 /* ViewController.m */; };
+		EF377BDC1C16569F0078C2F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF377BDA1C16569F0078C2F3 /* Main.storyboard */; };
+		EF377BDE1C16569F0078C2F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF377BDD1C16569F0078C2F3 /* Assets.xcassets */; };
+		EF377BE11C16569F0078C2F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF377BDF1C16569F0078C2F3 /* LaunchScreen.storyboard */; };
+		EF7D88A91C16966B00E7E30C /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7D88A81C16966B00E7E30C /* ProfileViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF1A2AE41C165B340055EB93 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		EF1A2AE51C165B340055EB93 /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
+		EF1A2AE61C165B340055EB93 /* ParseTwitterUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseTwitterUtils.framework; sourceTree = "<group>"; };
+		EF1A2AE71C165B340055EB93 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		EF1A2AE81C165B340055EB93 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		EF1A2AE91C165B340055EB93 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		EF1A2AF01C165C130055EB93 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		EF1A2AF21C165C180055EB93 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		EF1A2AF41C165C1F0055EB93 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EF1A2AF61C165C2C0055EB93 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		EF1A2AF81C165C340055EB93 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EF1A2AFA1C165C400055EB93 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		EF1A2AFC1C165C450055EB93 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		EF1A2AFE1C165C4C0055EB93 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		EF1A2B001C165C510055EB93 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		EF1A2B021C165C620055EB93 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		EF1A2B041C165C660055EB93 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		EF1A2B061C165CA30055EB93 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EF1A2B081C165E970055EB93 /* DiningHallSelectionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiningHallSelectionTableViewController.h; sourceTree = "<group>"; };
+		EF1A2B091C165E970055EB93 /* DiningHallSelectionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiningHallSelectionTableViewController.m; sourceTree = "<group>"; };
+		EF1A2B0B1C1661100055EB93 /* foothill_logo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = foothill_logo.gif; sourceTree = "<group>"; };
+		EF1A2B0C1C1661100055EB93 /* crossroads_logo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = crossroads_logo.gif; sourceTree = "<group>"; };
+		EF1A2B0D1C1661100055EB93 /* ckc_logo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ckc_logo.gif; sourceTree = "<group>"; };
+		EF1A2B0E1C1661100055EB93 /* cafe_3_logo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cafe_3_logo.gif; sourceTree = "<group>"; };
+		EF1A2B131C16652F0055EB93 /* CheckInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckInViewController.h; sourceTree = "<group>"; };
+		EF1A2B141C16652F0055EB93 /* CheckInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckInViewController.m; sourceTree = "<group>"; };
+		EF377BCE1C16569F0078C2F3 /* dininghall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dininghall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF377BD21C16569F0078C2F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF377BD41C16569F0078C2F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF377BD51C16569F0078C2F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF377BD71C16569F0078C2F3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF377BD81C16569F0078C2F3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF377BDB1C16569F0078C2F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF377BDD1C16569F0078C2F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF377BE01C16569F0078C2F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF377BE21C16569F0078C2F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF7D88A71C16966B00E7E30C /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProfileViewController.h; path = ../ProfileViewController.h; sourceTree = "<group>"; };
+		EF7D88A81C16966B00E7E30C /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProfileViewController.m; path = ../ProfileViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF377BCB1C16569F0078C2F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1A2B071C165CA30055EB93 /* SystemConfiguration.framework in Frameworks */,
+				EF1A2B051C165C660055EB93 /* Social.framework in Frameworks */,
+				EF1A2B031C165C620055EB93 /* Accounts.framework in Frameworks */,
+				EF1A2B011C165C510055EB93 /* libsqlite3.tbd in Frameworks */,
+				EF1A2AFF1C165C4C0055EB93 /* libz.tbd in Frameworks */,
+				EF1A2AFD1C165C450055EB93 /* StoreKit.framework in Frameworks */,
+				EF1A2AFB1C165C400055EB93 /* Security.framework in Frameworks */,
+				EF1A2AF91C165C340055EB93 /* QuartzCore.framework in Frameworks */,
+				EF1A2AF71C165C2C0055EB93 /* CoreLocation.framework in Frameworks */,
+				EF1A2AF51C165C1F0055EB93 /* CoreGraphics.framework in Frameworks */,
+				EF1A2AF31C165C180055EB93 /* CFNetwork.framework in Frameworks */,
+				EF1A2AF11C165C130055EB93 /* AudioToolbox.framework in Frameworks */,
+				EF1A2AEE1C165B340055EB93 /* Bolts.framework in Frameworks */,
+				EF1A2AEB1C165B340055EB93 /* ParseFacebookUtilsV4.framework in Frameworks */,
+				EF1A2AEC1C165B340055EB93 /* ParseTwitterUtils.framework in Frameworks */,
+				EF1A2AED1C165B340055EB93 /* ParseUI.framework in Frameworks */,
+				EF1A2AEF1C165B340055EB93 /* Parse.framework in Frameworks */,
+				EF1A2AEA1C165B340055EB93 /* ParseFacebookUtils.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF377BC51C16569F0078C2F3 = {
+			isa = PBXGroup;
+			children = (
+				EF377BD01C16569F0078C2F3 /* dininghall */,
+				EF377BCF1C16569F0078C2F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF377BCF1C16569F0078C2F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF377BCE1C16569F0078C2F3 /* dininghall.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF377BD01C16569F0078C2F3 /* dininghall */ = {
+			isa = PBXGroup;
+			children = (
+				EF377BD41C16569F0078C2F3 /* AppDelegate.h */,
+				EF377BD51C16569F0078C2F3 /* AppDelegate.m */,
+				EF377BD71C16569F0078C2F3 /* ViewController.h */,
+				EF377BD81C16569F0078C2F3 /* ViewController.m */,
+				EF1A2B081C165E970055EB93 /* DiningHallSelectionTableViewController.h */,
+				EF1A2B091C165E970055EB93 /* DiningHallSelectionTableViewController.m */,
+				EF1A2B131C16652F0055EB93 /* CheckInViewController.h */,
+				EF1A2B141C16652F0055EB93 /* CheckInViewController.m */,
+				EF7D88A71C16966B00E7E30C /* ProfileViewController.h */,
+				EF7D88A81C16966B00E7E30C /* ProfileViewController.m */,
+				EF377BDA1C16569F0078C2F3 /* Main.storyboard */,
+				EF377BDD1C16569F0078C2F3 /* Assets.xcassets */,
+				EF377BDF1C16569F0078C2F3 /* LaunchScreen.storyboard */,
+				EF377BE21C16569F0078C2F3 /* Info.plist */,
+				EF377BEA1C1659A50078C2F3 /* ExternalFrameworks */,
+				EF377BD11C16569F0078C2F3 /* Supporting Files */,
+			);
+			path = dininghall;
+			sourceTree = "<group>";
+		};
+		EF377BD11C16569F0078C2F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF1A2B0B1C1661100055EB93 /* foothill_logo.gif */,
+				EF1A2B0C1C1661100055EB93 /* crossroads_logo.gif */,
+				EF1A2B0D1C1661100055EB93 /* ckc_logo.gif */,
+				EF1A2B0E1C1661100055EB93 /* cafe_3_logo.gif */,
+				EF377BD21C16569F0078C2F3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF377BEA1C1659A50078C2F3 /* ExternalFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF1A2B061C165CA30055EB93 /* SystemConfiguration.framework */,
+				EF1A2B041C165C660055EB93 /* Social.framework */,
+				EF1A2B021C165C620055EB93 /* Accounts.framework */,
+				EF1A2B001C165C510055EB93 /* libsqlite3.tbd */,
+				EF1A2AFE1C165C4C0055EB93 /* libz.tbd */,
+				EF1A2AFC1C165C450055EB93 /* StoreKit.framework */,
+				EF1A2AFA1C165C400055EB93 /* Security.framework */,
+				EF1A2AF81C165C340055EB93 /* QuartzCore.framework */,
+				EF1A2AF61C165C2C0055EB93 /* CoreLocation.framework */,
+				EF1A2AF41C165C1F0055EB93 /* CoreGraphics.framework */,
+				EF1A2AF21C165C180055EB93 /* CFNetwork.framework */,
+				EF1A2AF01C165C130055EB93 /* AudioToolbox.framework */,
+				EF1A2AE41C165B340055EB93 /* ParseFacebookUtils.framework */,
+				EF1A2AE51C165B340055EB93 /* ParseFacebookUtilsV4.framework */,
+				EF1A2AE61C165B340055EB93 /* ParseTwitterUtils.framework */,
+				EF1A2AE71C165B340055EB93 /* ParseUI.framework */,
+				EF1A2AE81C165B340055EB93 /* Bolts.framework */,
+				EF1A2AE91C165B340055EB93 /* Parse.framework */,
+			);
+			name = ExternalFrameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF377BCD1C16569F0078C2F3 /* dininghall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF377BE51C16569F0078C2F3 /* Build configuration list for PBXNativeTarget "dininghall" */;
+			buildPhases = (
+				EF377BCA1C16569F0078C2F3 /* Sources */,
+				EF377BCB1C16569F0078C2F3 /* Frameworks */,
+				EF377BCC1C16569F0078C2F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dininghall;
+			productName = dininghall;
+			productReference = EF377BCE1C16569F0078C2F3 /* dininghall.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF377BC61C16569F0078C2F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Kunal Patel";
+				TargetAttributes = {
+					EF377BCD1C16569F0078C2F3 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = LU2WCMACAB;
+					};
+				};
+			};
+			buildConfigurationList = EF377BC91C16569F0078C2F3 /* Build configuration list for PBXProject "dininghall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF377BC51C16569F0078C2F3;
+			productRefGroup = EF377BCF1C16569F0078C2F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF377BCD1C16569F0078C2F3 /* dininghall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF377BCC1C16569F0078C2F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF377BE11C16569F0078C2F3 /* LaunchScreen.storyboard in Resources */,
+				EF1A2B111C1661100055EB93 /* ckc_logo.gif in Resources */,
+				EF1A2B101C1661100055EB93 /* crossroads_logo.gif in Resources */,
+				EF1A2B121C1661100055EB93 /* cafe_3_logo.gif in Resources */,
+				EF377BDE1C16569F0078C2F3 /* Assets.xcassets in Resources */,
+				EF1A2B0F1C1661100055EB93 /* foothill_logo.gif in Resources */,
+				EF377BDC1C16569F0078C2F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF377BCA1C16569F0078C2F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF377BD91C16569F0078C2F3 /* ViewController.m in Sources */,
+				EF1A2B151C16652F0055EB93 /* CheckInViewController.m in Sources */,
+				EF377BD61C16569F0078C2F3 /* AppDelegate.m in Sources */,
+				EF1A2B0A1C165E970055EB93 /* DiningHallSelectionTableViewController.m in Sources */,
+				EF7D88A91C16966B00E7E30C /* ProfileViewController.m in Sources */,
+				EF377BD31C16569F0078C2F3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF377BDA1C16569F0078C2F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF377BDB1C16569F0078C2F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF377BDF1C16569F0078C2F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF377BE01C16569F0078C2F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF377BE31C16569F0078C2F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF377BE41C16569F0078C2F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF377BE61C16569F0078C2F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/dininghall",
+				);
+				INFOPLIST_FILE = dininghall/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.kunaldp.dininghall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF377BE71C16569F0078C2F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/dininghall",
+				);
+				INFOPLIST_FILE = dininghall/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.kunaldp.dininghall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF377BC91C16569F0078C2F3 /* Build configuration list for PBXProject "dininghall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF377BE31C16569F0078C2F3 /* Debug */,
+				EF377BE41C16569F0078C2F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF377BE51C16569F0078C2F3 /* Build configuration list for PBXNativeTarget "dininghall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF377BE61C16569F0078C2F3 /* Debug */,
+				EF377BE71C16569F0078C2F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF377BC61C16569F0078C2F3 /* Project object */;
+}
